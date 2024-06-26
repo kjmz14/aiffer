@@ -1,12 +1,12 @@
 [package]
-name = "aiff"
-version = "0.1.0"
+name = "aiffer"
+version = "0.2.0"
 authors = ["Julien Tregoat <jules@jules.nyc>"]
 description = "AIFF codec"
 edition = "2018"
 license = "MIT OR Apache-2.0"
-homepage = "https://github.com/julientregoat/aiff-rs"
-repository = "https://github.com/julientregoat/aiff-rs"
+homepage = "https://github.com/kjmz14/aiffer"
+repository = "https://github.com/kjmz14/aiffer"
 keywords = ["aiff", "pcm", "audio", "codec", "decoder"]
 
 [dependencies]
