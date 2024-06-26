@@ -1,8 +1,8 @@
-# aiff-rs
+# aiffer
 
-so far, only reading / decoding AIFF files is supported. I will add in encoding
-at some point in the future
+A library for decoding uncompressed AIFF files.
 
-## want to do
+Fork of [julientregoat/aiff-rs](https://github.com/julientregoat/aiff-rs)
+with additional code from [Ch0ronomato/aiff-rs](https://github.com/Ch0ronomato/aiff-rs)
 
-- aifc support
+Documentation is in progress.
