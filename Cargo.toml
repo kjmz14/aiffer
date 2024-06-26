@@ -7,7 +7,7 @@ edition = "2018"
 license = "MIT OR Apache-2.0"
 homepage = "https://github.com/julientregoat/aiff-rs"
 repository = "https://github.com/julientregoat/aiff-rs"
-keywords = ["aiff", "pcm", "audio", "codec", "encoder", "decoder"]
+keywords = ["aiff", "pcm", "audio", "codec", "decoder"]
 
 [dependencies]
 id3 = "0.5.1"
