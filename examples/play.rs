@@ -1,7 +1,7 @@
-extern crate aiff;
+extern crate aiffer;
 extern crate cpal;
 
-use aiff::reader::AiffReader;
+use aiffer::reader::AiffReader;
 use cpal::{
     traits::{DeviceTrait, HostTrait, StreamTrait},
     Sample, SampleRate,
@@ -63,7 +63,7 @@ fn main() {
     println!("stream config {:?}", stream_config);
 
     let samples: Vec<_> =
-        reader.samples::<i32>().iter().map(|s| s.to_f32()).collect();
+        reader.samples::<f32>().iter().map(|s| s.to_f32()).collect();
 
     // let samples: Vec<_> = reader.samples().iter().map(|s| s.to_f32()).collect();
     let mut idx = 0;

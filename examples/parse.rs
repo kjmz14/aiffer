@@ -1,6 +1,6 @@
-extern crate aiff;
+extern crate aiffer;
 
-use aiff::reader::AiffReader;
+use aiffer::reader::AiffReader;
 use std::fs::File;
 
 fn main() {
